@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="personal portfolio Archoita">
+    <title>Archita Sinha portfolio</title>
+    <link rel="icon" href="me.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles_2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">>
+    <script src="script.js" defer></script>
+</head> 
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="nav-logo">
+                <img src="icon/as.jpg" alt="Archita's Logo">
+            </a>
+            <div class="nav-toggle"><i class="fa fa-bars"></i></div>
+        </div>
+        <div class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="contact.html">contact me</a>
+            <a href="resume.pdf" class="resume-button" download>Download Resume</a>
+            <div id="dark-mode-toggle" class="dark-mode-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <header>
+        <img src="me.jpg" alt="me">
+        <h1>This is Archita,a <span class="about-me"></span></h1>
+        <p>Welcome to my world! guyghihljhkibk hgd funkomp9gyugu kjguytvb tno hgygyucr tfytstr bjbjb,mbkb,jhvvcjcjcyjv
+        hukg,jv,hjbhghhgykv,jukctfdtyfuyb yhijnlgyigfjyftfdtdsresrsrdexcbbn kmnjuigytffdtrderdc ggffcdeswedfgvhbnb
+        </p>
+    </header>
+
+    
+    <!-- <section>
+        <h2>About Me</h2>
+        <p>I am a passionate learner, always eager to explore new technologies and concepts.</p>
+        <img src="me.jpg" alt="me">
+    </section><hr> -->
+    <div class="content-container">
+
+        <section>
+            <h2>My Skills</h2>
+            <div class="skills-list">
+                <ul class="skills-list"> 
+                    <li>Web development</li>
+                    <li>cpp and dsa</li>
+                    <li>Data Analytics</li>
+                </ul>
+            </div>
+        </section><hr>
+
+
+        <section class="horizontal-scroll">
+            <div class="icon-container">
+                <img src="icon/html.jpg" alt="Icon html">
+                <img src="icon/css.jpg" alt="Icon css">
+                <img src="icon/javascript.jpg" alt="Icon javascript">
+                <img src="icon/excel.jpg" alt="Icon excel">
+                <img src="icon/sql.jpg" alt="Icon sql">
+                <img src="icon/powerbi.jpg" alt="Icon powerbi">
+                <img src="icon/python.jpg" alt="Icon html">
+            </div>
+        </section><hr>
+
+        <section id="programming-languages">
+            <h2>Programming Languages</h2>
+            <div class="skill">
+                <p>javascript</p>
+                <div class="progress-bar" data-progress="80"></div>
+            </div>
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress-bar" data-progress="90"></div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress-bar" data-progress="60"></div>
+            </div>
+        </section><hr>
+
+        <section>
+            <h2>My Projects</h2>
+            <p>Take a look at some of my works</p>
+            <!-- <p><a href="project1.html">Project 1</a>|<a href="file:///C:/Users/91765/OneDrive/Desktop/webdev/index.html">Project 2</a></p> -->
+            <section id="projects">
+                <div class="project-thumbnail">
+                    <div class="thumbnail-content">
+                        <img src="icon/1.jpg" alt="Project 1">
+                        <h3>Project 1 Title</h3>
+                        <p>Project 1 Description</p>
+                        <a href="#" class="btn know-more" data-modal-target="#projectModal1">Know More </a>
+                    </div>
+                </div>
+
+                <div class="project-thumbnail">
+                    <div class="thumbnail-content">
+                        <img src="icon/2.jpg" alt="Project 2">
+                        <h3>Project 2 Title</h3>
+                        <p>Project 2 Description</p>
+                        <a href="#" class="btn know-more" data-modal-target="#projectModal2">Know More </a>
+                    </div>
+                </div>
+
+                <div class="project-thumbnail">
+                    <div class="thumbnail-content">
+                        <img src="icon/3.jpg" alt="Project 3">
+                        <h3>Project 3 Title</h3>
+                        <p>Project 3 Description</p>
+                        <a href="#" class="btn know-more" data-modal-target="#projectModal3">Know More </a>
+                    </div>
+                </div>
+            </section>
+
+        </section><hr>
+
+        <section>
+            <h2>Contact Me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="your name">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="your email">
+                </div>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="your message"></textarea>
+                </div>
+                    <button type="Submit">Send</button>
+            </form>
+        </section><hr>
+
+        <section>
+            <h2>Contact Information</h2>
+            <p>let's connect</p>
+                <p>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJPswHkRLxXspXPFhwdvDrHSTDTJmBtlmlMfvpvtmMTHDBDhMqLjVLVXhGCgSKqPKScb"class="icon-link email-icon"><i class="fa fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/archita-sinha-77161925a?trk=contact-info"class="icon-link linkedin-icon"><i class="fa-brands fa-linkedin"></i></a>
+
+            </p>
+        </section><hr>
+    </div>
+
+
+        <footer>
+            <p>Copyright &copy; 2024 Archita Sinha</p>
+        </footer>
+    </div>
+
+
+        <div id="projectModal1" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Project 1 Title</h2>
+            <hr>
+            <div class="modal-body">
+                <div class="modal-row">
+                    <div class="column description">
+                        <h3>Project 1 Description</h3 >
+                        <a href="https://github.com/yourgithubrepo" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div class="column image-carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="icon/excel.jpg" alt="project1 image 1">
+                                <img src="icon/python.jpg" alt="project1 image 2">
+                                <img src="icon/powerbi.jpg" alt="project1 image 3">
+                            </div>
+                            <a class="prev" onclick="moveslide(-1)">&#10094;</a>
+                            <a class="next" onclick="moveslide(1)">&#10095;</a>
+                        </div>
+                    </div>
+                </div>
+                    <div class="modal-row">
+                        <div class="column">
+                            <h3>Project 1 Details</h3>
+                            <ul>
+                                <li>Project Description BHKJKVJHGBKJGB,HJHB,K</li>
+                                <li>Project DescriptionUYUFUTJC HKGFYURYIBTNTRF8B67</li>
+                                <li>Project Description JHGB7GT7YTDF66ES4VBC7GFB6B 4B4B</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h3>Project 1 video</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/kP-s7FJp0j0?si=0ZllKaj8kZIyzyzL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div id="projectModal2" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Project 2 Title</h2>
+            <hr>
+            <div class="modal-body">
+                <div class="modal-row">
+                    <div class="column description">
+                        <p>Project  2 Description</p>
+                        <a href="https://github.com/yourgithubrepo" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div class="column image-carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="icon/1.jpg" alt="project2 image 4">
+                                <img src="icon/2.jpg" alt="project2 image 5">
+                                <img src="icon/3.jpg" alt="project2 image 6">
+                            </div>
+                            <a class="prev" onclick="moveslide(-1)">&#10094;</a>
+                            <a class="next" onclick="moveslide(1)">&#10095;</a>
+                        </div>
+                    </div>
+                </div>
+                    <div class="modal-row">
+                        <div class="column">
+                            <h3>Project 2 Details</h3>
+                            <ul>
+                                <li>Project Description BHKJKVJHGBKJGB,HJHB,K</li>
+                                <li>Project DescriptionUYUFUTJC HKGFYURYIBTNTRF8B67</li>
+                                <li>Project Description JHGB7GT7YTDF66ES4VBC7GFB6B 4B4B</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h3>Project 2 video</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/kP-s7FJp0j0?si=0ZllKaj8kZIyzyzL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="projectModal3" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Project 3 Title</h2>
+            <hr>
+            <div class="modal-body">
+                <div class="modal-row">
+                    <div class="column description">
+                        <p>Project 3 Description</p>
+                        <a href="https://github.com/yourgithubrepo" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div class="column image-carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="icon/html.jpg" alt="project3 image 7">
+                                <img src="icon/css.jpg" alt="project3 image 8">
+                                <img src="icon/sql.jpg" alt="project3 image 9">
+                            </div>
+                            <a class="prev" onclick="moveslide(-1)">&#10094;</a>
+                            <a class="next" onclick="moveslide(1)">&#10095;</a>
+                        </div>
+                    </div>
+                </div>
+                    <div class="modal-row">
+                        <div class="column">
+                            <h3>Project 3 details</h3>
+                            <ul>
+                                <li>Project Description BHKJKVJHGBKJGB,HJHB,K</li>
+                                <li>Project DescriptionUYUFUTJC HKGFYURYIBTNTRF8B67</li>
+                                <li>Project Description JHGB7GT7YTDF66ES4VBC7GFB6B 4B4B</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h3>Project  3 video</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/kP-s7FJp0j0?si=0ZllKaj8kZIyzyzL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

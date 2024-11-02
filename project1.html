@@ -1,0 +1,104 @@
+<!-- Modal for Project 1 -->
+<div id="projectModal1" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Project 1 Title</h2>
+        <hr>
+        <div class="modal-body">
+            <div class="modal-row">
+                <div class="column description">
+                    <p>Project Description/overview</p>
+                    <a href="https://github.com/yourgithubrepo" target="_blank" class="github-link">
+                        <i class="fas fa-github"></i>
+                    </a>
+                </div>
+                <div class="column image-carousel">
+                    <div class="carousel-container">
+                        <div class="carousel-slide">
+                            <img src="icon/1.jpg" alt="project1 image 1">
+                            <img src="icon/2.jpg" alt="project1 image 2">
+                            <img src="icon/3.jpg" alt="project1 image 3">
+                        </div>
+                        <a class="prev" onclick="moveslide(-1)">&#10094;</a>
+                        <a class="next" onclick="moveslide(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-row">
+                <div class="column">
+                    <h3>Project Description</h3>
+                    <ul>
+                        <li>Project Description BHKJKVJHGBKJGB,HJHB,K</li>
+                        <li>Project DescriptionUYUFUTJC HKGFYURYIBTNTRF8B67</li>
+                        <li>Project Description JHGB7GT7YTDF66ES4VBC7GFB6B 4B4B</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Project Video</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kP-s7FJp0j0?si=0ZllKaj8kZIyzyzL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                           
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Project 2 -->
+<div id="projectModal2" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Project 2 Title</h2>
+        <hr>
+        <div class="modal-body">
+            <div class="modal-row">
+                <div class="column description">
+                    <p>Project 2 Description/overview</p>
+                    <a href="https://github.com/yourgithubrepo" target="_blank" class="github-link">
+                        <i class="fas fa-github"></i>
+                    </a>
+                </div>
+                <div class="column image-carousel">
+                    <div class="carousel-container">
+                        <div class="carousel-slide">
+                            <img src="icon/1.jpg" alt="project2 image 1">
+                            <img src="icon/2.jpg" alt="project2 image 2">
+                            <img src="icon/3.jpg" alt="project2 image 3">
+                        </div>
+                        <a class="prev" onclick="moveslide(-1)">&#10094;</a>
+                        <a class="next" onclick="moveslide(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-row">
+                <div class="column">
+                    <h3>Project Description</h3>
+                    <ul>
+                        <li>Project 2 Description BHKJKVJHGBKJGB,HJHB,K</li>
+                        <li>Project 2 DescriptionUYUFUTJC HKGFYURYIBTNTRF8B67</li>
+                        <li>Project 2 Description JHGB7GT7YTDF66ES4VBC7GFB6B 4B4B</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Project 2 Video</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kP-s7FJp0j0?si=0ZllKaj8kZIyzyzL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                           
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // JavaScript for handling modal and carousel
+    var modals = document.querySelectorAll('.modal');
+    var closeButtons = document.querySelectorAll('.close');
+
+    closeButtons.forEach(function(btn) {
+        btn.onclick = function() {
+            var modal = btn.closest('.modal');
+            modal.style.display = 'none';
+        }
+    });
+
+    function moveslide(n) {
+        // Implement carousel logic here
+    }
+</script>
